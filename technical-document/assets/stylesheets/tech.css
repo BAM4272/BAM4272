@@ -1,0 +1,204 @@
+<style>
+/* http://meyerweb.com/eric/tools/css/reset/ 2. v2.0 | 20110126
+  License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol, ul {
+  list-style: none;
+}
+blockquote, q {
+  quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+
+}
+
+/*
+================================
+Custom Styles
+================================
+*/
+
+body {
+  min-width: 290px;
+
+  background-color: #cccccc;
+ 
+  font-family: "Lato", "Open Sans", "Helvetica Neue", Heletica; Arial, sans-serif;;
+  
+  padding-left: 10px;
+
+  line-height: 1.5em; 
+}
+
+font-family {
+  'Lato', sans-serif;;
+}
+
+/*
+================================
+TYPOGRAPHY
+================================
+*/
+ul {
+  list-style: none;
+  flex-direction: column;
+}
+
+/*
+================================
+MAIN HEADER
+================================
+*/
+
+.main-header {
+  border: 2px solid #000000;
+  height: 100%;
+  width: 250px;
+  position: fixed;
+  color: white;
+  border-radius: 10px;
+}
+
+#header {
+  display: flex;
+  justify-items: center;
+  justify-content: center;
+  align-items: center;
+  height: 100px;
+}
+
+/*
+================================
+NAVBAR
+================================
+*/
+
+#navbar {
+  width: -webkit-fill-available;
+  background-color: #191919;
+  height: 100%;
+}
+
+.nav-link {
+  display: flex;
+  padding: 0 0 10px 0;
+  justify-items: center;
+  height: 100px;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  border-radius: 10px;
+  text-decoration: none;
+  font-size: 18px;
+}
+
+.header-nav {
+  margin-left: 0;
+  padding-left: 0;
+}
+
+
+.navlink, a:hover {
+  background-color: #4c4c4c;
+  color: #fff;
+
+}
+
+
+/*
+==============================
+MAIN SECTION
+==============================
+*/
+
+#main-doc {
+  margin-left: 275px;
+  font-size: 18px;
+}
+
+#Learn_to_style_HTML_using_CSS header {
+  font-size: 22px;
+}
+
+.main-section{
+  line-height: 2em;
+}
+
+.main-section header{
+  font-size: 22px;
+}
+
+.square-li {
+      list-style: square;
+      font-weight: 400;
+}
+
+code {
+  display: flex;
+  font-size: 14px;
+  padding-top: .5em;
+  padding-bottom: .5em;
+  background-color: #b2b2b2;
+  align-items: center;
+  border-radius: 5px;
+}
+
+@media (min-width: 600px){
+
+
+} 
+
+
+
+/*
+==============================
+MAIN FOOTER
+==============================
+*/
+
+#main-footer small{
+  margin-left: 275px;
+  font-style: italic;
+}
+
+#main-footer a {
+  color: #FF1919;
+}
+
+</style>
